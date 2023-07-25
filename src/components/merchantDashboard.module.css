@@ -1,0 +1,14 @@
+.Container{
+    background-color: grey;
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.frow{
+    display: flex;
+    flex-wrap: wrap;
+}

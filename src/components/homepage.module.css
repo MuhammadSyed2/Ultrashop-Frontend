@@ -1,0 +1,56 @@
+.header{
+    height: 60px;
+    background-image: linear-gradient(to bottom,#02129c , #017ed1);
+    
+}
+
+.slider{
+    height: 40px;
+    width: 40px;
+    margin-top: 0.5%;
+    margin-right: 95%;
+    background-color: #5465ff;
+    border-radius: 15px;
+    border: .02px solid grey;
+}
+.slidericon{
+    color: white;
+}
+.sliderdiv{
+    width: 300px;
+    height: 661px;
+    background-image: linear-gradient(to bottom,#02129c , #86cdfd);
+    position: absolute;
+    margin-top: 0.82%;
+
+}
+.items li:hover{
+     background-color: white;
+     color: #02129c;
+     width: 300px;
+     height: 30px;
+     position: relative;
+     border-radius: 25px;
+     text-align: center;
+     transition: 0.3s ease-in-out;
+}
+
+.container{
+    display: flex;
+}
+.txt{
+    display: block;
+    margin-left: 45%;
+}
+.items {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 50%;
+    margin-top: 20%;
+}
+.items li{
+    float: left;
+    color: white;
+    margin-top: 35%;
+    font-weight: 700;
+}
